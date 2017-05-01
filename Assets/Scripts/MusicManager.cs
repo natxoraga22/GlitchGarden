@@ -24,6 +24,11 @@ public class MusicManager : MonoBehaviour {
 
 	void Start () {
 		audioSource = GetComponent<AudioSource> ();
+		SetVolume (PlayerPrefsManager.GetMasterVolume ());
+	}
+
+	public void SetVolume (float newVolume) {
+		audioSource.volume = newVolume;
 	}
 
 	private void OnEnable () {
@@ -36,7 +41,7 @@ public class MusicManager : MonoBehaviour {
 
 	private void OnSceneLoaded(Scene scene, LoadSceneMode loadSceneMode) {
 		foreach (MusicEntry music in levelMusic) {
-			if (music.key == scene.name) {
+			if (music.key == scene.name && music.value != audioSource.clip) {
 				audioSource.Stop ();
 				audioSource.clip = music.value;
 				audioSource.loop = true;
