@@ -1,10 +1,19 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
+using System.Collections.Generic;
+
 
 public class MusicManager : MonoBehaviour {
 
-	public AudioClip[] levelMusic;
+	[System.Serializable]
+	public class MusicEntry
+	{
+		public string key;
+		public AudioClip value;
+	}
+
+	public MusicEntry[] levelMusic;    
 
 	private AudioSource audioSource;
 
@@ -26,11 +35,13 @@ public class MusicManager : MonoBehaviour {
 	}
 
 	private void OnSceneLoaded(Scene scene, LoadSceneMode loadSceneMode) {
-		audioSource.Stop ();
-		if (levelMusic [scene.buildIndex]) {
-			audioSource.clip = levelMusic [scene.buildIndex];
-			audioSource.loop = true;
-			audioSource.Play ();
+		foreach (MusicEntry music in levelMusic) {
+			if (music.key == scene.name) {
+				audioSource.Stop ();
+				audioSource.clip = music.value;
+				audioSource.loop = true;
+				audioSource.Play ();
+			}
 		}
 	}
 
