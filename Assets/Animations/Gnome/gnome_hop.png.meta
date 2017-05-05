@@ -1,5 +1,7 @@
 fileFormatVersion: 2
 guid: cdc0da292b3ac41989de40edbf0c5883
+timeCreated: 1494008487
+licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: npc_garden_gnome__x1_hopLoop_png_1354832665_0
@@ -14,6 +16,18 @@ TextureImporter:
     21300018: npc_garden_gnome__x1_hopLoop_png_1354832665_9
     21300020: npc_garden_gnome__x1_hopLoop_png_1354832665_10
     21300022: npc_garden_gnome__x1_hopLoop_png_1354832665_11
+    21300024: gnome_hop_0
+    21300026: gnome_hop_1
+    21300028: gnome_hop_2
+    21300030: gnome_hop_3
+    21300032: gnome_hop_4
+    21300034: gnome_hop_5
+    21300036: gnome_hop_6
+    21300038: gnome_hop_7
+    21300040: gnome_hop_8
+    21300042: gnome_hop_9
+    21300044: gnome_hop_10
+    21300046: gnome_hop_11
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -54,7 +68,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 133.3333
+  spritePixelsToUnits: 160
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
@@ -63,7 +77,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: npc_garden_gnome__x1_hopLoop_png_1354832665_0
+      name: gnome_hop_0
       rect:
         serializedVersion: 2
         x: 0
@@ -71,12 +85,12 @@ TextureImporter:
         width: 81
         height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_garden_gnome__x1_hopLoop_png_1354832665_1
+      name: gnome_hop_1
       rect:
         serializedVersion: 2
         x: 81
@@ -87,9 +101,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_garden_gnome__x1_hopLoop_png_1354832665_2
+      name: gnome_hop_2
       rect:
         serializedVersion: 2
         x: 162
@@ -100,9 +114,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_garden_gnome__x1_hopLoop_png_1354832665_3
+      name: gnome_hop_3
       rect:
         serializedVersion: 2
         x: 243
@@ -113,9 +127,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_garden_gnome__x1_hopLoop_png_1354832665_4
+      name: gnome_hop_4
       rect:
         serializedVersion: 2
         x: 324
@@ -126,9 +140,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_garden_gnome__x1_hopLoop_png_1354832665_5
+      name: gnome_hop_5
       rect:
         serializedVersion: 2
         x: 405
@@ -139,9 +153,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_garden_gnome__x1_hopLoop_png_1354832665_6
+      name: gnome_hop_6
       rect:
         serializedVersion: 2
         x: 486
@@ -152,9 +166,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_garden_gnome__x1_hopLoop_png_1354832665_7
+      name: gnome_hop_7
       rect:
         serializedVersion: 2
         x: 567
@@ -165,9 +179,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_garden_gnome__x1_hopLoop_png_1354832665_8
+      name: gnome_hop_8
       rect:
         serializedVersion: 2
         x: 648
@@ -178,9 +192,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_garden_gnome__x1_hopLoop_png_1354832665_9
+      name: gnome_hop_9
       rect:
         serializedVersion: 2
         x: 729
@@ -191,9 +205,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_garden_gnome__x1_hopLoop_png_1354832665_10
+      name: gnome_hop_10
       rect:
         serializedVersion: 2
         x: 810
@@ -204,9 +218,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_garden_gnome__x1_hopLoop_png_1354832665_11
+      name: gnome_hop_11
       rect:
         serializedVersion: 2
         x: 891
@@ -217,7 +231,7 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 

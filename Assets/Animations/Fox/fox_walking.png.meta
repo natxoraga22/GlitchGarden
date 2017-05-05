@@ -1,5 +1,7 @@
 fileFormatVersion: 2
 guid: 63b6e8cb164fc4d66a085344d8327ce4
+timeCreated: 1494011424
+licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: npc_fox_fox_orangeFox_x1_walk_png_1354839598_0
@@ -26,6 +28,30 @@ TextureImporter:
     21300042: npc_fox_fox_orangeFox_x1_walk_png_1354839598_21
     21300044: npc_fox_fox_orangeFox_x1_walk_png_1354839598_22
     21300046: npc_fox_fox_orangeFox_x1_walk_png_1354839598_23
+    21300048: fox_walking_0
+    21300050: fox_walking_1
+    21300052: fox_walking_2
+    21300054: fox_walking_3
+    21300056: fox_walking_4
+    21300058: fox_walking_5
+    21300060: fox_walking_6
+    21300062: fox_walking_7
+    21300064: fox_walking_8
+    21300066: fox_walking_9
+    21300068: fox_walking_10
+    21300070: fox_walking_11
+    21300072: fox_walking_12
+    21300074: fox_walking_13
+    21300076: fox_walking_14
+    21300078: fox_walking_15
+    21300080: fox_walking_16
+    21300082: fox_walking_17
+    21300084: fox_walking_18
+    21300086: fox_walking_19
+    21300088: fox_walking_20
+    21300090: fox_walking_21
+    21300092: fox_walking_22
+    21300094: fox_walking_23
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -66,7 +92,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 133.3333
+  spritePixelsToUnits: 160
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
@@ -75,7 +101,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: npc_fox_fox_orangeFox_x1_walk_png_1354839598_0
+      name: fox_walking_0
       rect:
         serializedVersion: 2
         x: 0
@@ -86,9 +112,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_fox_fox_orangeFox_x1_walk_png_1354839598_1
+      name: fox_walking_1
       rect:
         serializedVersion: 2
         x: 153
@@ -99,9 +125,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_fox_fox_orangeFox_x1_walk_png_1354839598_2
+      name: fox_walking_2
       rect:
         serializedVersion: 2
         x: 306
@@ -112,9 +138,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_fox_fox_orangeFox_x1_walk_png_1354839598_3
+      name: fox_walking_3
       rect:
         serializedVersion: 2
         x: 459
@@ -125,9 +151,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_fox_fox_orangeFox_x1_walk_png_1354839598_4
+      name: fox_walking_4
       rect:
         serializedVersion: 2
         x: 612
@@ -138,9 +164,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_fox_fox_orangeFox_x1_walk_png_1354839598_5
+      name: fox_walking_5
       rect:
         serializedVersion: 2
         x: 765
@@ -151,9 +177,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_fox_fox_orangeFox_x1_walk_png_1354839598_6
+      name: fox_walking_6
       rect:
         serializedVersion: 2
         x: 0
@@ -164,9 +190,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_fox_fox_orangeFox_x1_walk_png_1354839598_7
+      name: fox_walking_7
       rect:
         serializedVersion: 2
         x: 153
@@ -174,12 +200,12 @@ TextureImporter:
         width: 153
         height: 139
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_fox_fox_orangeFox_x1_walk_png_1354839598_8
+      name: fox_walking_8
       rect:
         serializedVersion: 2
         x: 306
@@ -190,9 +216,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_fox_fox_orangeFox_x1_walk_png_1354839598_9
+      name: fox_walking_9
       rect:
         serializedVersion: 2
         x: 459
@@ -203,9 +229,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_fox_fox_orangeFox_x1_walk_png_1354839598_10
+      name: fox_walking_10
       rect:
         serializedVersion: 2
         x: 612
@@ -216,9 +242,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_fox_fox_orangeFox_x1_walk_png_1354839598_11
+      name: fox_walking_11
       rect:
         serializedVersion: 2
         x: 765
@@ -229,9 +255,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_fox_fox_orangeFox_x1_walk_png_1354839598_12
+      name: fox_walking_12
       rect:
         serializedVersion: 2
         x: 0
@@ -242,9 +268,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_fox_fox_orangeFox_x1_walk_png_1354839598_13
+      name: fox_walking_13
       rect:
         serializedVersion: 2
         x: 153
@@ -255,9 +281,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_fox_fox_orangeFox_x1_walk_png_1354839598_14
+      name: fox_walking_14
       rect:
         serializedVersion: 2
         x: 306
@@ -268,9 +294,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_fox_fox_orangeFox_x1_walk_png_1354839598_15
+      name: fox_walking_15
       rect:
         serializedVersion: 2
         x: 459
@@ -281,9 +307,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_fox_fox_orangeFox_x1_walk_png_1354839598_16
+      name: fox_walking_16
       rect:
         serializedVersion: 2
         x: 612
@@ -294,9 +320,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_fox_fox_orangeFox_x1_walk_png_1354839598_17
+      name: fox_walking_17
       rect:
         serializedVersion: 2
         x: 765
@@ -307,9 +333,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_fox_fox_orangeFox_x1_walk_png_1354839598_18
+      name: fox_walking_18
       rect:
         serializedVersion: 2
         x: 0
@@ -320,9 +346,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_fox_fox_orangeFox_x1_walk_png_1354839598_19
+      name: fox_walking_19
       rect:
         serializedVersion: 2
         x: 153
@@ -333,9 +359,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_fox_fox_orangeFox_x1_walk_png_1354839598_20
+      name: fox_walking_20
       rect:
         serializedVersion: 2
         x: 306
@@ -346,9 +372,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_fox_fox_orangeFox_x1_walk_png_1354839598_21
+      name: fox_walking_21
       rect:
         serializedVersion: 2
         x: 459
@@ -359,9 +385,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_fox_fox_orangeFox_x1_walk_png_1354839598_22
+      name: fox_walking_22
       rect:
         serializedVersion: 2
         x: 612
@@ -372,9 +398,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_fox_fox_orangeFox_x1_walk_png_1354839598_23
+      name: fox_walking_23
       rect:
         serializedVersion: 2
         x: 765
@@ -385,7 +411,7 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 
