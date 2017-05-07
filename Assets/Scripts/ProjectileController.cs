@@ -12,4 +12,5 @@ public class ProjectileController : MonoBehaviour {
 	void Update () {
 		this.transform.Translate (Vector3.right * speed * Time.deltaTime);
 	}
+
 }

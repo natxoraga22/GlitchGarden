@@ -23,10 +23,6 @@ public class AttackerController : MonoBehaviour {
 		this.transform.Translate (Vector3.left * currentSpeed * Time.deltaTime);
 	}
 
-	void OnTriggerEnter2D (Collider2D collider) {
-		Debug.Log (this.name + " collision with " + collider.gameObject.name);
-	}
-
 	void SetCurrentSpeed (float newCurrentSpeed) {
 		currentSpeed = newCurrentSpeed;
 	}
