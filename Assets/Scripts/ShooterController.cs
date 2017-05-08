@@ -14,6 +14,9 @@ public class ShooterController : MonoBehaviour {
 	void Start () {
 		projectileSpawnPoint = this.transform.FindChild("ProjectileSpawnPoint").gameObject;
 		projectileParent = GameObject.Find ("Projectiles");
+		if (!projectileParent) {
+			projectileParent = new GameObject ("Projectiles");
+		}
 	}
 	
 	void FireProjectile () {
