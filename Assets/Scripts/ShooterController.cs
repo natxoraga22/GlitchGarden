@@ -17,7 +17,7 @@ public class ShooterController : MonoBehaviour {
 	}
 	
 	void FireProjectile () {
-		GameObject projectile = Instantiate (projectilePrefab, projectileSpawnPoint.transform.position, Quaternion.identity, projectileParent.transform);
+		Instantiate (projectilePrefab, projectileSpawnPoint.transform.position, Quaternion.identity, projectileParent.transform);
 	}
 
 }

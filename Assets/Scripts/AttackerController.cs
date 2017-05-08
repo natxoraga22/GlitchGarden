@@ -36,7 +36,8 @@ public class AttackerController : MonoBehaviour {
 	// Called from the animator, deals damage
 	void StrikeCurrentTarget (float damage) {
 		if (currentTarget) {
-			currentTarget.GetComponent<HealthController> ().DealDamage (damage);
+			HealthController targetHealth = currentTarget.GetComponent<HealthController> ();
+			if (targetHealth) targetHealth.DealDamage (damage);
 		}
 	}
 

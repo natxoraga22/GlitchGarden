@@ -13,4 +13,12 @@ public class ProjectileController : MonoBehaviour {
 		this.transform.Translate (Vector3.right * speed * Time.deltaTime);
 	}
 
+	void OnTriggerEnter2D (Collider2D collider) {
+		if (collider.gameObject.GetComponent<AttackerController> ()) {
+			HealthController targetHealth = collider.gameObject.GetComponent<HealthController> ();
+			if (targetHealth) targetHealth.DealDamage (damage);
+			Destroy (this.gameObject);
+		}
+	}
+
 }
