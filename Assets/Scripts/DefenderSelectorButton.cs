@@ -6,7 +6,7 @@ using UnityEngine;
 public class DefenderSelectorButton : MonoBehaviour {
 
 	public GameObject defenderPrefab;
-	public static GameObject selectedDefender;
+	public static GameObject selectedDefenderPrefab;
 
 	private SpriteRenderer spriteRenderer;
 	private DefenderSelectorButton[] buttons;
@@ -24,7 +24,7 @@ public class DefenderSelectorButton : MonoBehaviour {
 		}
 		// Set the clicked one to white
 		spriteRenderer.color = Color.white;
-		selectedDefender = defenderPrefab;
+		selectedDefenderPrefab = defenderPrefab;
 	}
 
 }
