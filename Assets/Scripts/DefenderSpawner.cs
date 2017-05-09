@@ -17,7 +17,7 @@ public class DefenderSpawner : MonoBehaviour {
 
 	void OnMouseDown () {
 		Vector3 worldPosition = Camera.main.ScreenToWorldPoint (Input.mousePosition);
-		Vector3 defenderPosition = new Vector3 (Mathf.Round (worldPosition.x), Mathf.Round (worldPosition.y), 0f);
+		Vector2 defenderPosition = new Vector2 (Mathf.Round (worldPosition.x), Mathf.Round (worldPosition.y));
 
 		// Instantiate defender
 		Instantiate (DefenderSelectorButton.selectedDefenderPrefab, defenderPosition, Quaternion.identity, defenderParent.transform);
