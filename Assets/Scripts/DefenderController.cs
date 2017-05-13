@@ -5,6 +5,6 @@ using UnityEngine;
 
 public class DefenderController : MonoBehaviour {
 
-	// Only being used as a tag for now
+	public int starCost = 0;
 
 }

@@ -5,10 +5,12 @@ using UnityEngine;
 
 public class DefenderSpawner : MonoBehaviour {
 
+	private StarsDisplay starsDisplay;
 	private GameObject defenderParent;
 
 
 	void Start () {
+		starsDisplay = GameObject.FindObjectOfType<StarsDisplay> ();
 		defenderParent = GameObject.Find ("Defenders");
 		if (!defenderParent) {
 			defenderParent = new GameObject ("Defenders");
@@ -19,8 +21,11 @@ public class DefenderSpawner : MonoBehaviour {
 		Vector3 mouseWorldPosition = Camera.main.ScreenToWorldPoint (Input.mousePosition);
 		Vector2 defenderPosition = new Vector2 (Mathf.Round (mouseWorldPosition.x), Mathf.Round (mouseWorldPosition.y));
 
-		// Instantiate defender
-		Instantiate (DefenderSelectorButton.selectedDefenderPrefab, defenderPosition, Quaternion.identity, defenderParent.transform);
+		// Instantiate defender if enough stars
+		GameObject defenderPrefab = DefenderSelectorButton.selectedDefenderPrefab;
+		if (starsDisplay.UseStars (defenderPrefab.GetComponent<DefenderController> ().starCost)) {
+			Instantiate (defenderPrefab, defenderPosition, Quaternion.identity, defenderParent.transform);
+		}
 	}
 
 }

@@ -7,7 +7,7 @@ public class StarsDisplay : MonoBehaviour {
 
 	private Text starsText;
 
-	private int amountStars = 100;
+	private int amountStars = 500;
 
 
 	void Start () {
@@ -20,9 +20,11 @@ public class StarsDisplay : MonoBehaviour {
 		UpdateStarsText ();
 	}
 
-	public void UseStars (int amount) {
+	public bool UseStars (int amount) {
+		if (amount > amountStars) return false;
 		amountStars -= amount;		
 		UpdateStarsText ();
+		return true;
 	}
 
 	private void UpdateStarsText () {
