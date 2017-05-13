@@ -9,7 +9,6 @@ public class AttackerSpawner : MonoBehaviour {
 	public float[] spawnDelays;
 
 	
-	// Update is called once per frame
 	void Update () {
 		for (int i = 0; i < attackerPrefabs.Length; i++) {
 			if (IsTimeToSpawn (spawnDelays [i])) {
@@ -19,8 +18,13 @@ public class AttackerSpawner : MonoBehaviour {
 	}
 	
 	bool IsTimeToSpawn (float spawnDelay) {
-		// TODO Implement this
-		return true;
+		if (Time.deltaTime > spawnDelay) {
+			Debug.LogWarning ("Spawn rate capped by frame rate");
+		} 
+
+		float spawnsPerSecond = 1f / spawnDelay;
+		float threshold = spawnsPerSecond * Time.deltaTime;
+		return Random.value < threshold;
 	}
 
 	void Spawn (GameObject attackerPrefab) {
