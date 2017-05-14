@@ -13,7 +13,6 @@ public class GravestoneController : MonoBehaviour {
 	}
 
 	void OnTriggerStay2D (Collider2D collider) {
-		Debug.Log ("OnTriggerStay2D");
 		if (collider.gameObject.GetComponent<AttackerController> ()) {
 			animator.SetTrigger ("underAttackTrigger");
 		}

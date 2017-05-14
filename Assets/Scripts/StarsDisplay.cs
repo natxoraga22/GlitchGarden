@@ -5,13 +5,16 @@ using UnityEngine.UI;
 
 public class StarsDisplay : MonoBehaviour {
 
+	public int initialAmountStars = 500;
+
 	private Text starsText;
 
-	private int amountStars = 500;
+	private int amountStars;
 
 
 	void Start () {
 		starsText = GetComponent<Text> ();
+		amountStars = initialAmountStars;
 		UpdateStarsText ();
 	}
 	

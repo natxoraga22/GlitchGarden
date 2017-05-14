@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 
 public class DefenderSelectorButton : MonoBehaviour {
@@ -15,6 +16,11 @@ public class DefenderSelectorButton : MonoBehaviour {
 	void Start () {
 		spriteRenderer = GetComponentInChildren<SpriteRenderer> ();
 		buttons = GameObject.FindObjectsOfType<DefenderSelectorButton> ();
+		SetStarCostText ();
+	}
+
+	void SetStarCostText () {
+		this.transform.GetComponentInChildren<Text> ().text = defenderPrefab.GetComponent<DefenderController> ().starCost.ToString ();
 	}
 
 	void OnMouseDown () {
