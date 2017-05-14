@@ -5,6 +5,18 @@ using UnityEngine;
 
 public class GravestoneController : MonoBehaviour {
 
-	// Only being used as a tag for now
+	private Animator animator;
+
+
+	void Start () {
+		animator = GetComponent<Animator> ();
+	}
+
+	void OnTriggerStay2D (Collider2D collider) {
+		Debug.Log ("OnTriggerStay2D");
+		if (collider.gameObject.GetComponent<AttackerController> ()) {
+			animator.SetTrigger ("underAttackTrigger");
+		}
+	}
 
 }
